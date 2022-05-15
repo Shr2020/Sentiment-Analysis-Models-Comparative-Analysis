@@ -53,9 +53,9 @@ The first step is to pre-process the data. The preprocessing steps include:<br>
 
 The files for preprocessing in the repo are:
 
-1.)amazon\_reviews\_preprocess.ipynb
+1.)[amazon_reviews_preprocess.ipynb](https://github.com/Shr2020/IDLSProject/blob/main/amazon_reviews_preprocess.ipynb)
 
-2.)imdb\_preprocess.ipynb
+2.)[imdb_preprocess.ipynb](https://github.com/Shr2020/IDLSProject/blob/main/imdb_preprocess.ipynb)
 
 These files will:
 
