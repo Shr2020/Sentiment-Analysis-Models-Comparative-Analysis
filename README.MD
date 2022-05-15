@@ -33,17 +33,11 @@ LSTM is a network model that solves the problems of gradient explosion and vanis
 LSTM has a memory cell at the top which helps to carry the information from a particular time instance to the next time instance in an efficient manner. Therefore it can able to remember a lot of information from previous states. This information can be added or removed from the memory cell using valves. In the LSTM network, the total input is the input data from the current time instance and the output of hidden layer from the previous time instance. These are then passed through activation functions and valves in the network and then output is produced.
 
 
-CNN  can also be used for text analysis. CNN's can process local features such as 
-
-n-grams in text. We can use CNNs for sentiment analysis by using the word to int vectors.
-
-The word vectors act like Images as some points in space. By using word-to-Int vectors of fixed size and stacking them on top of each other, we get an “image”. Therefore we can use CNN on text similar to how we use image classification. For NLP, we typically use filters that slide over word embeddings — matrix rows.
+CNN  can also be used for text analysis. CNN's can process local features such as n-grams in text. We can use CNNs for sentiment analysis by using the word to int vectors.The word vectors act like Images as some points in space. By using word-to-Int vectors of fixed size and stacking them on top of each other, we get an “image”. Therefore we can use CNN on text similar to how we use image classification. For NLP, we typically use filters that slide over word embeddings — matrix rows.
 
 Text data needs to be analysed in the same way as people read the text: word by word, from the beginning to the end, taking context into account as one go.  This conventional one-word-at-a-time approach is called a "recurrent neural network". Unlike the conventional RNN, in the "quasi-recurrent neural network," or QRNN most of the computation happens all at once parallelly which can make it up to 16 times faster than the old approach. QRNN approach can also help with the interpretability of neurons, because each neuron's activation doesn't depend on the past history of any other neurons. The neurons thus can have (although not guaranteed) independent and well-defined meanings and these meanings are more likely to be simpler and more human-interpretable.
 
-Using Combinations of CNN and LSTM can mean that we used the best of both worlds.
-
-CNN is able to learn the features that contribute significantly to the sentiment of the sentence using overlapping sequences resulting in a matrix of word vectors. This matrix can then be fed to LSTM. The LSTM layer can then focus on more important data rather than memorizing the whole sentence. This can lead to an increase in the efficiency of the model. 
+Using Combinations of CNN and LSTM can mean that we used the best of both worlds. CNN is able to learn the features that contribute significantly to the sentiment of the sentence using overlapping sequences resulting in a matrix of word vectors. This matrix can then be fed to LSTM. The LSTM layer can then focus on more important data rather than memorizing the whole sentence. This can lead to an increase in the efficiency of the model. 
 
 
 
@@ -185,4 +179,14 @@ Results are plotted in the file:
 - CNN and CNN-LSTM were the most time consuming when run without Hyperband optimisation.
 - The Accuracy for all the models increases or remains the same after Hyperband Optimization.
 - The train time for CNN and CNN-LSTM decreases with Hyperband Optimization. This may be because the hyperband chooses the optimisers and the right optimisers can reduce the training time significantly.
+
+### Performace Observations:
+
+- With hyper parameter optimization, although LSTM has higher accuracy (88.331) compared to CNN-LSTM accuracy (88.216), training time of LSTM model was almost double compared to CNN-LSTM
+- Considering the tradeoff between accuracy and training time,CNN-LSTM performs better on amazon data set.
+- We also observed that the effectiveness of the algorithms depends largely on the characteristics and quality of the datasets
+- We observed overfitting for most of the models with imdb data-sets due to the small size of data
+- As the accuracy was almost same for all models with or without hyper-parameter optimization, we think that our input feature vectors should get better before feeding to Deep Learning Classifier.
+- Hence, using robust preprocessing techniques using deep learning like BERT might  help us to reduce overfitting and also to increase the accuracy 
+
 
