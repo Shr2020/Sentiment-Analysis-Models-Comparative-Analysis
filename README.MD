@@ -146,40 +146,35 @@ Results are plotted in the file:
 
 ### IMDB Dataset:
 
-
+![alt text](https://github.com/Shr2020/IDLSProject/blob/main/Graphs/IMDB1_1.png)
 
 
 ### Amazon Dataset
 
-
-
-
-
+![alt text](https://github.com/Shr2020/IDLSProject/blob/main/Graphs/AMAZON1_1.png)
 
 
 ### IMDb Dataset: With Hyperband Optimization
 
 
-
+![alt text](https://github.com/Shr2020/IDLSProject/blob/main/Graphs/IMDB2_1.png)
 
 
 ### Amazon Dataset: With Hyperband Optimization
 
-
-
-
+![alt text](https://github.com/Shr2020/IDLSProject/blob/main/Graphs/AMAZON2_1.png)
 
 ### Comparing the performance of Two approaches (Hyperband and Non-Hyperband)
 
 ### IMDb Dataset
 
-
+![alt text](https://github.com/Shr2020/IDLSProject/blob/main/Graphs/IMDB3.png)
 
 
 ### Amazon dataset
 
 
-
+![alt text](https://github.com/Shr2020/IDLSProject/blob/main/Graphs/AMAZON3.png)
 
 
 ### Observations:
