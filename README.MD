@@ -1,10 +1,10 @@
-﻿\# Comparative Analysis of Models for Sentiment Analysis
+# Comparative Analysis of Models for Sentiment Analysis
 
 1.) This project aims to compare 5  models and test the reliability of hybrid sentiment analysis models on various datasets of different domains.<br>
 
 2.) Determining whether it is possible to produce hybrid models that outperform single models with different domains and types of datasets.
 
-\## Datasets
+## Datasets
 
 Two datasets are used for comparison:<br>
 
@@ -14,7 +14,7 @@ Two datasets are used for comparison:<br>
 
 These datasets are divided into two labels for sentiment: Positive and Negative.
 
-\## Models 
+## Models 
 
 We have used five models for comparison:<br>
 
@@ -47,7 +47,7 @@ CNN is able to learn the features that contribute significantly to the sentiment
 
 
 
-\## Preprocessing
+## Preprocessing
 
 The first step is to pre-process the data. The preprocessing steps include:<br>
 
@@ -79,13 +79,13 @@ These files will:
 
 After these files are created we can proceed to training.
 
-\## Model Training and Testing 
+## Model Training and Testing 
 
-\### Training files for all models in repo
+### Training files for all models in repo
 
 (First run the preprocessing step, then run the files from the marked cell)
 
-\### Experimental Setup:
+### Experimental Setup:
 
 1) Used HPC Cluster. GPU: RTX8000
 1) Train and test data is mixed and separated to 80%(train), 10%(val) and 10%(test)
@@ -144,34 +144,34 @@ Results are plotted in the file:
 1) [Hyperband vs Non-Hyperband IMDB.ip](https://github.com/Shr2020/IDLSProject/blob/main/Hyperband%20vs%20Non-Hyperband%20IMDB.ipynb)[ynb](https://github.com/Shr2020/IDLSProject/blob/main/Hyperband%20vs%20Non-Hyperband%20IMDB.ipynb)
 
 
-\### IMDB Dataset:
+### IMDB Dataset:
 
 
 
 
-\### Amazon Dataset
-
-
-
-
-
-
-
-\### IMDb Dataset: With Hyperband Optimization
+### Amazon Dataset
 
 
 
 
 
-\### Amazon Dataset: With Hyperband Optimization
+
+
+### IMDb Dataset: With Hyperband Optimization
 
 
 
 
 
-\### Comparing the performance of Two approaches (Hyperband and Non-Hyperband)
+### Amazon Dataset: With Hyperband Optimization
 
-\### IMDb Dataset
+
+
+
+
+### Comparing the performance of Two approaches (Hyperband and Non-Hyperband)
+
+### IMDb Dataset
 
 
 
@@ -182,7 +182,7 @@ Results are plotted in the file:
 
 
 
-\### Observations:
+### Observations:
 
 - The Accuracy for all models is the same more or less. CNN-LSTM  performed the best looking at the graphs for the IMDb dataset. For the Amazon Dataset, LSTM performed the best.
 - LSTM-CNN suffers from overfitting. Hence its Accuracy is the least for both the Datasets.
