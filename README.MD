@@ -130,13 +130,12 @@ We then used Hyperband optimizations to get the optimum values of parameters. We
 
 Results are plotted in the file:
 
-1) [Amazon_graphs-Hyperband.ipynb](https://github.com/Shr2020/IDLSProject/blob/main/Amazon_graphs-Hyperband.ipynb)
-1) [Amazon_graphs.ipynb](https://github.com/Shr2020/IDLSProject/blob/main/Amazon_graphs.ipynb)
-1) [IMDB_graphs-FINAL.ipynb](https://github.com/Shr2020/IDLSProject/blob/main/IMDB_graphs-FINAL.ipynb)
-1) [IMDB_graphs-Hyperband.ipynb](https://github.com/Shr2020/IDLSProject/blob/main/IMDB_graphs-Hyperband.ipynb)
-1) [Hyperband vs Non-Hyperband AMAZON.ipynb](https://github.com/Shr2020/IDLSProject/blob/main/Hyperband%20vs%20Non-Hyperband%20AMAZON.ipynb)
-1) [Hyperband vs Non-Hyperband IMDB.ip](https://github.com/Shr2020/IDLSProject/blob/main/Hyperband%20vs%20Non-Hyperband%20IMDB.ipynb)[ynb](https://github.com/Shr2020/IDLSProject/blob/main/Hyperband%20vs%20Non-Hyperband%20IMDB.ipynb)
-
+1) [Amazon_graphs-Hyperband.ipynb](https://github.com/Shr2020/IDLSProject/blob/main/Amazon_graphs-Hyperband.ipynb) (Amazon dataset, with Hyperband Optimization)
+1) [Amazon_graphs.ipynb](https://github.com/Shr2020/IDLSProject/blob/main/Amazon_graphs.ipynb) (Amazon dataset, without Hyperband Optimization)
+1) [IMDB_graphs-FINAL.ipynb](https://github.com/Shr2020/IDLSProject/blob/main/IMDB_graphs-FINAL.ipynb) (IMDb dataset, without Hyperband Optimization)
+1) [IMDB_graphs-Hyperband.ipynb](https://github.com/Shr2020/IDLSProject/blob/main/IMDB_graphs-Hyperband.ipynb) (IMDb dataset, with Hyperband Optimization)
+1) [Hyperband vs Non-Hyperband AMAZON.ipynb](https://github.com/Shr2020/IDLSProject/blob/main/Hyperband%20vs%20Non-Hyperband%20AMAZON.ipynb) (Amazon dataset used)
+1) [Hyperband vs Non-Hyperband IMDB.ipynb](https://github.com/Shr2020/IDLSProject/blob/main/Hyperband%20vs%20Non-Hyperband%20IMDB.ipynb) (IMDb dataset used)
 
 ### IMDB Dataset:
 
